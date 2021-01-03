@@ -26,7 +26,7 @@ const buildControls = (props) => (
       disabled={!props.purchasable}
       onClick={props.ordered}
     >
-      {props.purchasable === false ? "ADD SAME INGREDIENTS" : "ORDER NOW"}
+      {props.purchasable === false ? "ADD SOME INGREDIENTS" : "ORDER NOW"}
     </button>
   </div>
 );
